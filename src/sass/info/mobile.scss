@@ -1,0 +1,216 @@
+& {
+  
+.order-1 {
+  -ms-flex-order: 1;
+      order: 1;
+}
+
+.order-2 {
+  -ms-flex-order: 2;
+      order: 2;
+}
+
+.order-3 {
+  -ms-flex-order: 3;
+      order: 3;
+}
+
+.order-4 {
+  -ms-flex-order: 4;
+      order: 4;
+}
+
+.order-5 {
+  -ms-flex-order: 5;
+      order: 5;
+}
+
+.order-6 {
+  -ms-flex-order: 6;
+      order: 6;
+}
+
+.order-7 {
+  -ms-flex-order: 7;
+      order: 7;
+}
+
+.order-8 {
+  -ms-flex-order: 8;
+      order: 8;
+}
+
+.order-9 {
+  -ms-flex-order: 9;
+      order: 9;
+}
+
+.order-10 {
+  -ms-flex-order: 10;
+      order: 10;
+}
+
+.order-11 {
+  -ms-flex-order: 11;
+      order: 11;
+}
+
+.order-12 {
+  -ms-flex-order: 12;
+      order: 12;
+}
+  header, footer {
+    overflow: hidden;
+    .container {
+      max-width: 480px;
+    }
+  }
+  a.menu-order {
+    max-width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 3%;
+    display: inline-block;
+    
+  }
+  .mob-btn {
+    background: url('../images/sandwich.svg') no-repeat center;
+    width: 26px;
+    height: 21px;
+        margin-top: 5px;
+    float: right;
+    &.active {
+      background: url('../images/cross.svg') no-repeat center;
+    }
+  }
+  nav {
+    .logo {
+      svg {
+        width: 120px;
+      }
+    }
+  }
+  
+  .menu {
+    background-color: #333333;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    display: none;
+    li {
+      margin: 0;
+      display: block;
+      padding-left: 33px;
+      border-bottom: 1px solid rgba(244, 244, 244, .04);
+      a {
+        color: #ffffff;
+      font-family: Montserrat;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 3.31;
+            line-height: 12vh;
+      }
+      &:last-child {
+        border: 0;
+        margin-bottom: 66px;
+        h3 {
+          opacity: 0.4;
+          color: #ffffff;
+          font-family: Montserrat;
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 1;
+          margin-top: 50px;
+          margin-bottom: 40px;
+        }
+        a {
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 48px;
+        }
+      }
+    }
+  }
+  .header {
+        padding-top: 65px;
+    position: relative;
+    
+  }
+  .results-items .h2-title {
+    position: static;
+    margin-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .social-carousel {
+    padding: 0 20px;
+    position: relative;
+}
+  .social-item p {
+    font-size: 17px;
+  }
+  .social-btn li {
+    margin: 0 0 29px;
+  }
+  .about-item {
+    margin-top: 30px;
+    p {
+      max-width: 326px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .pricing-list li {
+    margin-bottom: 14px;
+  }
+  .pricing-info {
+    margin-top: 40px;
+    max-width: 363px;
+  }
+  .subscription-form input {
+    max-width: 270px; 
+    
+  }
+  .subscription-title {
+    margin-bottom: 40px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .footer {
+    ul {
+      margin-bottom: 36px;
+    }
+    p {
+      margin-bottom: 36px;
+    }
+  }
+  .results-img {
+    overflow: hidden;
+    img {
+      max-width: inherit;
+      height: 580px;
+    }
+  }
+  .editor-title {
+    font-size: 35px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .about {
+    overflow: hidden;
+  }
+  .h2-title {
+    font-size: 43px;
+  }
+  .links-item {
+    margin-bottom: 50px;
+  }
+  .subscription-form input {
+    width: calc(100% - 144px);
+    margin-right: 6px;
+  }
+}

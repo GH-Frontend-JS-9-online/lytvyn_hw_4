@@ -1,0 +1,14 @@
+@import '../../mq';
+
+@media #{$phonePortrait} {
+    @import '../mobile';
+  
+  & {
+    .social-item .top .photo-info .name {
+      font-size: 17px;
+    }
+    .header-item h1 {
+    font-size: 56px;
+  }
+  }
+}
